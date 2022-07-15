@@ -22,7 +22,7 @@ export const ImageClassificationModels: ModelInfo[] = [
   },
   {
     name: 'Custom model',
-    model: require('../mobilenet_v3_small.ptl'),
+    model: require('../models/custom_model.ptl'),
   },
 ];
 

@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
+    "clean": "react-native clean-project-auto && yarn",
     "android": "react-native run-android",
     "ios": "react-native run-ios",
     "start": "react-native start",
@@ -39,6 +40,7 @@
     "eslint": "^7.14.0",
     "jest": "^27.4.7",
     "metro-react-native-babel-preset": "^0.64.0",
+    "react-native-clean-project": "^4.0.1",
     "react-test-renderer": "17.0.1",
     "ts-jest": "^27.1.2",
     "typescript": "^3.8.3",
